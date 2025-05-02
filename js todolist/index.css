@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: rgb(24, 125, 197);
+    height: 100vh;
+
+
+}
+h1{
+    color: white;
+    position: absolute;
+    left: 550px;
+    font-size: 500%;
+    top:60px;
+    font-family:sans-serif;
+}
+.input {
+    position: absolute;
+    top: 180px;
+    text-align: center;
+    border-radius: 10px;
+    left: 26%;
+    width: 80vh;
+    height: 4vw;
+    border: none;
+    font-size: x-large;
+}
+
+.btn{
+    position: absolute;
+    top: 180px;
+    text-align: center;
+    
+    border-radius: 10px;
+    left: 65%;
+    width: 18vh;
+    height: 4vw;
+    border: none;
+    background-color: rgb(250, 146, 72);
+    color: white;
+    font-size: xx-large;
+    
+    cursor: pointer;
+}
+.container {
+    background-color: white;
+    height: 60vh;
+    width: 100vh;
+    position: relative;
+    top: 270px;
+    left: 26%;
+    
+    /* display: flex; */
+    text-align: left;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 10px;
+}
+.container ul{
+    position: relative;
+    top: 10px;
+    /* background-color: rgb(5, 31, 31); */
+    box-shadow: 2px 0.1px 4px grey;
+    color:black;
+    font-size: 19px;
+    padding: 7px;
+    text-align: justify;
+    min-height: 10px;
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin:0 0 10px 20px;
+
+}
+.container ul i{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    padding-left: 10px;
+    cursor:pointer;
+
+
+}
